@@ -1,24 +1,6 @@
 # Config Setup
+
 ## MacOS
-### Procedure
-#### Pre-requisites
-- [Homebrew](https://brew.sh)
-
-### Commands
-```
-xcode-select --install
-wget 
-brew bundle
-```
-### Configurations
-- iTerm2:
-    - Apperance > General > Theme = Minimal
-    - Download iTerm2 theme (Theme.json)
-    - Download iTerm2 keybindings (TermKeys.itermkeymap)
-    - Profiles > ... > Import JSON Profiles > Theme.json
-    - Profiles > ... > (select imported theme) Set as Default
-    - Keys > KeyBindings > ... Presets > Import > TermKeys.itermkeymap
-
 ### Applications
 -  Desktop:
     - App Store
