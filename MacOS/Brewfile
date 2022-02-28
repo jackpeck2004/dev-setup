@@ -26,7 +26,7 @@ brew "zsh"
 brew "mongodb/brew/mongodb-database-tools"
 brew "mongodb/brew/mongodb-community"
 
-cask "google-chrome"
+cask "brave-browser"
 cask "firefox"
 cask "spotify"
 cask "obsidian"

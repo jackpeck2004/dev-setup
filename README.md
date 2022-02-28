@@ -11,7 +11,7 @@
     - Homebrew:
         - Web Browser:
             - Firefox
-            - Google Chrome
+            - Brave
         - Music:
             - Spotify
         - Notes/Learning:
