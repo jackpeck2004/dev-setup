@@ -4,6 +4,11 @@
 - [Homebrew](https://brew.sh)
 
 ## Commands
+
+Install all basic packages for a dev-environment
+
+***Note**: to change the default code-editor, browser, meeting platform, and so on, edit the Brewfile once downloaded to include the name of the casks you need and remove the ones you don't need. Currently it's as barebones as possible but doesn't sacrifice the programs I need*
+
 ```bash
 xcode-select --install
 wget https://raw.githubusercontent.com/jackpeck2004/dev-setup/main/MacOS/Brewfile
@@ -19,22 +24,25 @@ brew bundle
     - Profiles > ... > Import JSON Profiles > Theme.json
     - Profiles > ... > (select imported theme) Set as Default
     - Keys > KeyBindings > ... Presets > Import > TermKeys.itermkeymap
-
+- Default Terminal (MacOS Terminal)
+    - Download the Terminal Theme (*it's the exact theme that the default dark mode basic theme offers, only with support for light mode*)
+        - ```wget https://raw.githubusercontent.com/jackpeck2004/dev-setup/main/MacOS/BasicDark.terminal```
+    - Profiles > ... > Import > BasicDark.terminal
+    - Profiles > ... > BasicDark > "Default"
+    - General > "On startup, open:" > "New window with profile:" > Basic Dark
 - NodeJs
     - Install node v16 from fnm
         - ``` fnm install 16 ```
-
 - System Preferences
     - Keyboard > Shortcuts > Keyboard > Move focus to Next Window = alt + tab
     - Download settings sh script
         - ```wget https://raw.githubusercontent.com/jackpeck2004/dev-setup/main/MacOS/settings-setup.sh```
     - ```chmod a+x settings-setup.sh```
     - ```./settings-setup.sh```
-
 - Rectangle
-    - Download config ```wget https://raw.githubusercontent.com/jackpeck2004/dev-setup/main/MacOS/RectangleConfig.json```
-    - Rectangle > Preferences > "Gear Icon" > Import > RectangleConfig.json
-
+    - Download config
+      -  ```wget https://raw.githubusercontent.com/jackpeck2004/dev-setup/main/MacOS/RectangleConfig.json```
+- Rectangle > Preferences > "Gear Icon" > Import > RectangleConfig.json
 - ZSH
 ```bash
 wget https://raw.githubusercontent.com/jackpeck2004/dev-setup/main/MacOS/zshrc > ~/.zshrc
