@@ -63,3 +63,8 @@ curl https://gist.githubusercontent.com/jackpeck2004/3ddf25c7166e904d57a9bddf36d
 ```bash
 curl https://gist.githubusercontent.com/jackpeck2004/5c99b4d4bc6048d56fe66ce559d76a47/raw/2a4ccb75e3358e22c8b4ac4115e8adcdb21ab163/tmux-conf > ~/.tmux.conf
 ```
+
+- Visual Studio Code
+  - Extensions > Install Syncify
+  - Set up syncify
+  - sync settings
